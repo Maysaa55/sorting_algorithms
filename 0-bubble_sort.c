@@ -18,7 +18,7 @@ if(array[j] > array[j+1]){
 array[j] += array[j+1];
 array[j+1] = array[j] - array[j+1];
 array[j] -= array[j+1];
-print_array(const int *array, size_t size);
+print_array(array, size);
 }
 }
 }
