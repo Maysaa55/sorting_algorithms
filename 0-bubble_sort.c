@@ -1,4 +1,4 @@
-# include"sort.h"
+#include "sort.h"
 
 
 /**
@@ -18,8 +18,7 @@ if(array[j] > array[j+1]){
 array[j] += array[j+1];
 array[j+1] = array[j] - array[j+1];
 array[j] -= array[j+1];
-for(k = 0; k < size; k++)
-	print(array[k], end = ", ");
+print_array(const int *array, size_t size);
 }
 }
 }
