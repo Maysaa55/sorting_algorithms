@@ -22,11 +22,11 @@ if(array[j] < min){
 	count++;
 }
 }
-if(count == 0)
-	return;
+if(count != 0){
 temp = array[i];
 array[i] = min;
 array[index] = temp;
 print_array(array, size);
+}
 }
 }
