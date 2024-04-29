@@ -13,7 +13,7 @@ void quick_sort(int *array, size_t size)
 {
 size_t i, j;
 int min, index, temp, count;
-if (size == 2)
+if (size == 1)
 {
 	print_array(array, size);
 	exit(0);
