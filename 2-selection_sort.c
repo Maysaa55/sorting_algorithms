@@ -12,7 +12,7 @@
 void selection_sort(int *array, size_t size){
 size_t i, j;
 int min, index, temp, count;
-for(i = 0; i < size; i++){
+for(i = 0; i < size-1; i++){
 	min = array[i];
 	count = 0;
 for(j = i+1; j < size; j++){
