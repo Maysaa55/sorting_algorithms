@@ -16,7 +16,7 @@ int min, index, temp, count;
 if (size == 2)
 {
 	print_array(array, size);
-	return;
+	exit();
 }
 for (i = 0; i < size - 1; i++)
 {
