@@ -20,7 +20,7 @@ if(array[j]<min){
 	index = j;
 }
 }
-if(min = array[i])
+if(min == array[i])
 	return;
 temp = array[i];
 array[i] = min;
