@@ -9,20 +9,25 @@
  *
  * Return: No Return
  */
-void selection_sort(int *array, size_t size){
+void selection_sort(int *array, size_t size)
+{
 size_t i, j;
 int min, index, temp, count;
-for(i = 0; i < size-1; i++){
+for (i = 0; i < size - 1; i++)
+{
 	min = array[i];
 	count = 0;
-for(j = i+1; j < size; j++){
-if(array[j] < min){
+for (j = i + 1; j < size; j++)
+{
+if (array[j] < min)
+{
 	min = array[j];
 	index = j;
 	count++;
 }
 }
-if(count != 0){
+if (count != 0)
+{
 temp = array[i];
 array[i] = min;
 array[index] = temp;
