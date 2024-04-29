@@ -21,7 +21,7 @@ if(array[j]<min){
 }
 }
 if(min = array[i])
-	return 0;
+	return;
 temp = array[i];
 array[i] = min;
 array[index] = temp;
