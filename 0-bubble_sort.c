@@ -20,7 +20,7 @@ for(j = 0; j < size; j++){
 if(array[j] > array[j+1]){
 temp = array[j];
 array[j] = array[j+1];
-array[l+1] = temp;
+array[j+1] = temp;
 print_array(array, size);
 }
 }
